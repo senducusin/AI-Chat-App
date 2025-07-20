@@ -29,9 +29,22 @@
 		1292337E2E2D57760020581A /* AI-Chat-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-Chat-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		127F9DD02E2D808400F3DB5B /* Exceptions for "AI-Chat-App" folder in "AI-Chat-App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				Assets.xcassets = (ios, maccatalyst, );
+			};
+			target = 129233632E2D57750020581A /* AI-Chat-App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		129233662E2D57750020581A /* AI-Chat-App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				127F9DD02E2D808400F3DB5B /* Exceptions for "AI-Chat-App" folder in "AI-Chat-App" target */,
+			);
 			path = "AI-Chat-App";
 			sourceTree = "<group>";
 		};

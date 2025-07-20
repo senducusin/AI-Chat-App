@@ -21,8 +21,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gWG-2C-Imt">
-                                <rect key="frame" x="24" y="277" width="345" height="299"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gWG-2C-Imt">
+                                <rect key="frame" x="24" y="276" width="345" height="300"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="yli-gJ-fxK"/>
@@ -56,6 +56,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bubble.left" catalog="system" width="128" height="110"/>
+        <image name="LaunchIcon" width="1024" height="1024"/>
     </resources>
 </document>
