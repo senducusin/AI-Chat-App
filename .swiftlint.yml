@@ -1,0 +1,13 @@
+line_length:
+    warning: 300
+type_body_length:
+    warning: 500
+file_length:
+    warning: 750
+type_name:
+    allowed_symbols: "_"
+
+excluded:
+    - Tests
+    - AI-Chat-AppTests
+    - AI-Chat-AppUITests
